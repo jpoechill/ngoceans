@@ -1,0 +1,88 @@
+// Nav Bar
+.navbar {
+  padding: 7px;
+}
+
+.nav-link {
+  color: #222328;
+  font-size: .8em;
+}
+
+.navbar-brand, a {
+  color: #222328;
+}
+
+.bg-faded {
+  background-color: #fbfbfb;
+}
+
+nav {
+  border-bottom: 1px solid;
+  border-color: #F0F2F7;
+}
+
+body {
+  padding-top: 80px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  color: #999999;
+  font-size: .875rem;
+}
+
+.left-addon .fa  { left:  3px; top: 10px;}
+
+.left-addon input  { padding-left:  30px; }
+
+input[type=search] {
+    width: 300px;
+    -webkit-backface-visibility: hidden;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    border: 1px solid #E3E8F0;
+    border-color: #E3E8F0;
+    font-size: 10px;
+    color: #b0b0b0;
+    background-color: #F0F2F7;
+    border-radius: 100px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-family: FontAwesome, 'Open Sans', sans-serif !important;
+}
+
+input[type=button] {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    margin: 10px 0;
+    border-color: black;
+    border: 1px solid #E3E8F0;
+    color: #b0b0b0;
+    background-color: #F0F2F7;
+    border-radius: 100px;
+    font-weight: 700;
+    font-family: FontAwesome, 'Open Sans', sans-serif !important;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
