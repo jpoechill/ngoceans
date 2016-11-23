@@ -86,3 +86,62 @@ input[type=button] {
     visibility: hidden;
   }
 }
+
+.card {
+  display: inline-block;
+  margin: 8px;
+  margin-bottom: 30px;
+  width: 30%;
+  border-style: 0px solid;
+  background-color: #F9F9F9;
+  height: 100%;
+  min-height: 300px;
+  overflow: hidden;
+  color: #373a3c;
+  padding-top: 20px;
+  font-size: 1rem;
+  border: 0;
+  /*font-family: "OpenSans";*/
+  /*line-height: 1.5;*/
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, .14);;
+}
+.sea-title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+}
+.sea-coords {
+  font-size: 12px;
+  padding-top: .3rem;
+  vertical-align: baseline;;
+}
+.sea-description {
+  font-weight: 100;
+  font-size: 14px;
+  /*font-family: 'Open Sans', sans-serif;*/
+  line-height: 20px;
+  color: #555555;
+  letter-spacing: .1px;
+  width: 100%;
+  padding: 14px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+.sea-data {
+  font-weight: 200;
+  letter-spacing: .1px;
+  font-size: 11px;
+}
+.sea-comments {
+  font-weight: 200;
+  letter-spacing: .1px;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+.sea-data-tide {
+  font-weight: 700;
+  color: green;
+}
