@@ -75,6 +75,8 @@ input[type=button] {
 
 .card {
   display: inline-block;
+  margin-top: 4px;
+  margin-left: 6px;
   margin-right: 20px;
   margin-bottom: 30px;
   width: 30%;
@@ -90,22 +92,29 @@ input[type=button] {
   border-radius: 10px;
   padding: 0px;
   width: 96%;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);;
+  box-shadow: 10px 10px 16px rgba(0, 0, 0, .094);;
   transition: box-shadow 0.5s ease;
 }
 
 .card:hover {
-box-shadow: 4px 4px 16px rgba(68,68,68,.3);
+  // box-shadow: 3px 3px 16px rgba(68,68,68,.48);
 }
 
 .fadein {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+    // -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    //    -moz-animation: fadein 2s; /* Firefox < 16 */
+    //     -ms-animation: fadein 2s; /* Internet Explorer */
+    //      -o-animation: fadein 2s; /* Opera < 12.1 */
+    //         animation: fadein 2s;
 }
 
+.fadein-slow {
+    -webkit-animation: fadein .3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein .3s; /* Firefox < 16 */
+        -ms-animation: fadein .3s; /* Internet Explorer */
+         -o-animation: fadein .3s; /* Opera < 12.1 */
+            animation: fadein .3s;
+}
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -139,7 +148,7 @@ box-shadow: 4px 4px 16px rgba(68,68,68,.3);
 
 .columns {
 	column-count: 3;
-  column-gap: 6px;
+  column-gap: 14px;
 }
 
 .sea-title {
