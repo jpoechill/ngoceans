@@ -1,0 +1,41 @@
+// Inputs
+input {
+  padding: 8px;
+}
+
+input[type=search] {
+    width: 300px;
+    -webkit-backface-visibility: hidden;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    border: 1px solid #E3E8F0;
+    border-color: #E3E8F0;
+    font-size: 10px;
+    color: #b0b0b0;
+    background-color: #F0F2F7;
+    border-radius: 100px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-family: FontAwesome, 'Open Sans', sans-serif !important;
+}
+
+input[type=button] {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    margin: 10px 0;
+    border-color: black;
+    border: 1px solid #E3E8F0;
+    color: #b0b0b0;
+    background-color: #F0F2F7;
+    border-radius: 100px;
+    font-weight: 700;
+    font-family: FontAwesome, 'Open Sans', sans-serif !important;
+}
+
+button {
+  border-radius: 4px;
+  background-color: #4BE1AB;
+  border: 0px;
+  padding: 4 4 4 4;
+}

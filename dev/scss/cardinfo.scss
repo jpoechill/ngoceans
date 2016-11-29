@@ -1,0 +1,78 @@
+// Card info
+
+.card {
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 6px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  width: 30%;
+  border-style: 0px solid;
+  background-color: #f9f9f9;
+  height: 100%;
+  min-height: 300px;
+  overflow: visible;
+  color: #373a3c;
+  padding-top: 20px;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 10px;
+  padding: 0px;
+  width: 96%;
+  box-shadow: 10px 10px 16px rgba(0, 0, 0, .094);;
+  transition: box-shadow 0.5s ease;
+}
+
+.sea-title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sea-coords {
+  font-size: 12px;
+  padding-top: .3rem;
+  vertical-align: baseline;;
+}
+
+.sea-description {
+  font-weight: 100;
+  font-size: 14px;
+  /*font-family: 'Open Sans', sans-serif;*/
+  line-height: 20px;
+  color: #555555;
+  letter-spacing: .1px;
+  width: 100%;
+  padding: 14px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+.sea-data {
+  font-weight: 200;
+  letter-spacing: .1px;
+  font-size: 11px;
+}
+
+.sea-comments {
+  font-weight: 200;
+  letter-spacing: .1px;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.sea-data-tide-low {
+  font-weight: 700;
+  color: limegreen;
+}
+
+.sea-data-tide-med {
+  font-weight: 700;
+  color: lightblue;
+}
+
+.sea-data-tide-high {
+  font-weight: 700;
+  color: tomato;
+}

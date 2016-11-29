@@ -27,9 +27,19 @@
         <!-- <span style="font-size: 12px; color: #3A405B; letter-spacing: .136em; word-spacing: 2px;">
            GUEST <i class="fa fa-bell-o" aria-hidden="true"></i> </span> -->
 
-           <span style="margin-left: 14px; margin-right: 10px; top: 1px; position: relative; font-size: 12px; color: #3A405B; letter-spacing: .136em; word-spacing: 2px;">
-              <i class="fa fa-bell-o" aria-hidden="true"></i>
-           </span>
+
+           <div class="btn-group">
+             <a class="dropdown" href="" data-toggle="dropdown">
+                <span style="margin-left: 14px; margin-right: 10px; top: 1px; position: relative; font-size: 12px; color: #3A405B; letter-spacing: .136em; word-spacing: 2px;">
+                   <i class="fa fa-bell-o" aria-hidden="true"></i>
+                </span>
+             </a>
+                 <div class="dropdown-menu bubble dropdown-menu-right fadein-slow">
+                   <span style="font-size: 12px; color: #3A405B; letter-spacing: .136em; word-spacing: 2px;">
+                     <a class="dropdown-item" href="#/account">4 UPDATES</a>
+                 </div>
+           </div>
+
 
            <div class="btn-group">
              <a class="dropdown" href="" data-toggle="dropdown">
@@ -44,7 +54,9 @@
 
                  <div class="dropdown-menu bubble dropdown-menu-right fadein-slow">
                    <span style="font-size: 12px; color: #3A405B; letter-spacing: .136em; word-spacing: 2px;">
-                      <a class="dropdown-item" href="#">SIGN IN</a>
+                     <a class="dropdown-item" href="#/account">JULIAN BISHOP</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#/signin">SIGN IN</a>
 
                    <!-- <a class="dropdown-item" href="#">SIGN UP</a></span> -->
                  </div>
@@ -57,9 +69,9 @@
 .bubble {
 position: absolute;
 top: 50px;
-right: 0px;
+right: -3px;
 width: 150px;
-height: 50px;
+height: 92px;
 padding: 12px;
 background: #fbfbfb;
 color: white;

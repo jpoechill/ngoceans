@@ -32,6 +32,13 @@
 
     <!--endbuild-->
 
+    <!--  Enable Bootstrap tooltips -->
+    <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
+
     <title>Oceans | Home</title>
 
   </head>
@@ -45,7 +52,7 @@
     <!-- Start Angular view -->
     <ng-view autoscroll="true" style="overflow: auto; -webkit-column-break-inside: avoid;"></ng-view>
 
-    <footer>
+    <footer ng-show="showFooter()" ng-controller="MainController">
       <div class="container">
         <div class="row" style="vertical-align: top; float: left; width: 100%; min-height: 200px; padding-bottom: 0px; padding-top: 30px; margin-bottom: 0px;">
           <div class="col-md-3" style="font-family: 'Montserrat'; color: #3A405B; font-size: 14px; letter-spacing: .0375rem; font-weight: 400; padding-top: 0px; align: center;">
@@ -74,8 +81,8 @@
             <span style="font-family: 'Montserrat'; color: #B8BFD3; font-size: 11px; letter-spacing: 1px;">AS SEEN WITH </span><br><br>
             <span style="line-height: 3; letter-spacing: 18px;">
               <img src="/img/google.png" height="54px" alt="" />
+              <img src="/img/angular-1.png" height="54px" alt="" />
               <img src="/img/angular-2.png" height="54px" alt="" />
-              <img src="/img/pluralsight.png" height="54px" alt="" />
             </span>
           </div>
         </div>
