@@ -1,12 +1,10 @@
 # Capstonor
 
-Capstone project for Udacty SFEND
+Capstone project for Udacity SFEND
 
-Topics covered: Fast Forms, Offline First, Accessibility, Javascript Frameworks, HTTPS
+Topics covered: Fast Forms, Offline First, Accessibility, Validation, Javascript Frameworks, HTTPS
 
-Future add-ons: TBD
-
-Integrations: Angular Material
+Future add-ons: Angular Material, UI Router, Solid directives
 
 ## To install modules:
 1. Run `npm install` in your command line.

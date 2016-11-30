@@ -1,10 +1,10 @@
 <main>
   <div class="container">
     <div class="row">
-      <div class="col-md-12" style="padding-top: 0px; align: center;">
+      <div class="col-md-12" style="padding-top: 0px; padding-bottom: 24px; align: center;">
         <div class="columns" style="text-align:center;">
-          <div class="card fadein" style="vertical-align: top;" ng-repeat="sea in southernJSON.seas">
-            <div class="" style="width: 100%; padding: 14px; overflow: hidden;">
+          <div class="card" style="vertical-align: top;" ng-repeat="sea in articJSON.seas">
+            <div class="fadein" style="width: 100%; padding: 14px; overflow: hidden;">
               <img ng-src={{sea.photo}} alt="ARAFURA SEA THUMBNAIL" width="100%"/>
             </div>
             <div class="" style="width: 100%; padding: 14px; padding-top: 0px; padding-bottom: 0px; text-align: left;">
@@ -27,10 +27,31 @@
             <div class="" style="padding-left: 14px; padding-right: 14px;">
               <hr >
             </div>
-            <div class="sea-comments" style="width: 100%; padding: 14px; padding-top: 0px; padding-bottom: 14px; text-align: left;">
-              {{sea.comments.length}} COMMENTS <br>
+            <div class="sea-comments" style="width: 100%; padding: 14px; padding-top: 0px; padding-bottom: 10px; text-align: left;">
+               {{sea.followers.length}} FOLLOWERS
+               <span ng-show="!isFollows($index)" class="pull-right" style="margin-top: -3px">
+                 <button ng-click="addFollowers($index)" type="button" name="button">
+                   FOLLOW
+                 </button>
+               </span>
+               <span ng-show="isFollows($index)" class="pull-right" style="margin-top: -3px">
+                 <button type="button" name="button">
+                   <i class="fa fa-check" aria-hidden="true"></i>
+                   FOLLOWING
+                 </button>
+               </span>
               <!-- <img src="img/avatars-1.png" style="margin-top: 10px" alt="AVATARS THUMBNAILS" /> -->
             </div>
+            <div class="sea-comments" style="width: 100%; padding: 14px; padding-top: 0px; padding-bottom: 10px; text-align: left;">
+                <img ng-repeat="follower in sea.followers" ng-src="{{follower.photo}}" style="padding: 7px;" width="60px" alt="AVATARS THUMBNAILS" />
+            </div>
+            <!-- <div class="" style="padding-left: 14px; padding-right: 14px;">
+              <hr >
+            </div>
+            <div class="sea-comments" style="width: 100%; padding: 14px; padding-top: 0px; padding-bottom: 14px; text-align: left;">
+              {{sea.comments.length}} COMMENTS <br>
+              <img src="img/avatars-1.png" style="margin-top: 10px" alt="AVATARS THUMBNAILS" />
+            </div> -->
           </div>
         </div>
       </div>
