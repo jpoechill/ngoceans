@@ -10,7 +10,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -29,7 +29,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           }
         ],
@@ -54,7 +54,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -73,7 +73,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -98,7 +98,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -117,7 +117,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -142,7 +142,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -161,7 +161,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -186,7 +186,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -205,7 +205,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -230,7 +230,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -249,7 +249,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -274,7 +274,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -293,7 +293,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -318,7 +318,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -337,7 +337,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -362,7 +362,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -381,7 +381,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -406,7 +406,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -425,7 +425,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -450,7 +450,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -469,7 +469,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -502,7 +502,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -520,7 +520,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           }
         ],
@@ -545,7 +545,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -563,7 +563,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -588,7 +588,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -606,7 +606,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -631,7 +631,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -649,7 +649,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -674,7 +674,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -692,7 +692,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -717,7 +717,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -735,7 +735,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -760,7 +760,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -778,7 +778,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -803,7 +803,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -821,7 +821,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -846,7 +846,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -864,7 +864,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -889,7 +889,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -907,7 +907,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -932,7 +932,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -950,7 +950,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -983,7 +983,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1001,7 +1001,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           }
         ],
@@ -1026,7 +1026,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1044,7 +1044,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1069,7 +1069,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1087,7 +1087,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1112,7 +1112,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1130,7 +1130,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1155,7 +1155,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1173,7 +1173,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1198,7 +1198,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1216,7 +1216,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1241,7 +1241,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1259,7 +1259,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1284,7 +1284,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1302,7 +1302,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1327,7 +1327,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1345,7 +1345,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1370,7 +1370,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1388,7 +1388,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1413,7 +1413,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1431,7 +1431,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1464,7 +1464,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1482,7 +1482,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           }
         ],
@@ -1507,7 +1507,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1525,7 +1525,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1550,7 +1550,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1568,7 +1568,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1593,7 +1593,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1611,7 +1611,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1636,7 +1636,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1654,7 +1654,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1679,7 +1679,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1697,7 +1697,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1722,7 +1722,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1740,7 +1740,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1765,7 +1765,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1783,7 +1783,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1808,7 +1808,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1826,7 +1826,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1851,7 +1851,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1869,7 +1869,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1894,7 +1894,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1912,7 +1912,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -1945,7 +1945,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -1963,7 +1963,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           }
         ],
@@ -1988,7 +1988,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2006,7 +2006,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2031,7 +2031,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2049,7 +2049,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2074,7 +2074,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2092,7 +2092,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2117,7 +2117,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2135,7 +2135,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2160,7 +2160,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2178,7 +2178,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2203,7 +2203,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2221,7 +2221,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2246,7 +2246,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2264,7 +2264,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2289,7 +2289,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2307,7 +2307,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2332,7 +2332,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2350,7 +2350,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2375,7 +2375,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
         "id" : 100,
         "coords" : [-13.56, 23.97],
         "description" : "Amundsen Gulf is a gulf located in Canadian Northwest Territories, between Banks Island and Victoria Island and the mainland. It is approximately 250 mi (400 km) in length and about 93 mi (150 km) across where it meets the Beaufort Sea. The Amundsen Gulf was explored by Norwegian explorer Roald Amundsen between 1903 and 1906. The gulf is at the western end of the famous Northwest Passage, a route from the Atlantic Ocean to the Pacific. ",
-        "photo" : "/img/thumb-1.png",
+        "photo" : "img/thumb-1.png",
         "surface" : "1,175 km",
         "currenttemp" : "40˚ C / 160˚ F",
         "depth" : "1,253 m",
@@ -2393,7 +2393,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
           },
           {
             "name" : "Joe",
-            "photo" : "/img/avatar-thumb-3.png",
+            "photo" : "img/avatar-thumb-3.png",
             "dateposted" : "01/01/16"
           },
         ],
@@ -2474,7 +2474,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
     $scope.articJSON.seas[i].coords[0] = coordsNumFirst;
     $scope.articJSON.seas[i].coords[1] = coordsNumSecond;
     $scope.articJSON.seas[i].tide = showTide(randomSeaTide);
-    $scope.articJSON.seas[i].photo = "/img/thumb-" + randomIMGNum + ".png";
+    $scope.articJSON.seas[i].photo = "img/thumb-" + randomIMGNum + ".png";
   }
 
   for (var i = 0; i < $scope.indianJSON.seas.length; i = i + 1) {
@@ -2487,7 +2487,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
     thisSea.coords[0] = coordsNumFirst;
     thisSea.coords[1] = coordsNumSecond;
     thisSea.tide = showTide(randomSeaTide);
-    thisSea.photo = "/img/thumb-" + randomIMGNum + ".png";
+    thisSea.photo = "img/thumb-" + randomIMGNum + ".png";
   }
 
   for (var i = 0; i < $scope.pacificJSON.seas.length; i = i + 1) {
@@ -2500,7 +2500,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
     thisSea.coords[0] = coordsNumFirst;
     thisSea.coords[1] = coordsNumSecond;
     thisSea.tide = showTide(randomSeaTide);
-    thisSea.photo = "/img/thumb-" + randomIMGNum + ".png";
+    thisSea.photo = "img/thumb-" + randomIMGNum + ".png";
   }
 
   for (var i = 0; i < $scope.southernJSON.seas.length; i = i + 1) {
@@ -2513,7 +2513,7 @@ app.controller('MainController', ['$scope', '$location', function MainController
     thisSea.coords[0] = coordsNumFirst;
     thisSea.coords[1] = coordsNumSecond;
     thisSea.tide = showTide(randomSeaTide);
-    thisSea.photo = "/img/thumb-" + randomIMGNum + ".png";
+    thisSea.photo = "img/thumb-" + randomIMGNum + ".png";
   }
 
   function showTide (tideNum) {
