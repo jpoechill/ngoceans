@@ -1,5 +1,5 @@
 app.directive("navBar", function() {
     return {
-        templateUrl: "js/navbar/navbar.html"
+        templateUrl: "views/navbar.html"
     };
 });
