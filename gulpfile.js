@@ -32,7 +32,7 @@ gulp.task('browser-sync', function() {
 
 // Sass
 gulp.task('sass', function () {
-  return gulp.src('dev/scss/**/*.scss')
+  return gulp.src('dev/scss/**/*.{scss,css}')
     .pipe(sass())
     .pipe(cssnano())
     .pipe(concat('styles.main.css'))
