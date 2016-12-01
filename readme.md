@@ -1,6 +1,6 @@
-# Capstonor
+# Oceans
 
-Capstone project for Udacity SFEND
+View information of world oceans and their respective seas. Follow and receive updated temperature and tide changes with notifications. Progressive web-app, capstone project for Udacity SFEND.
 
 Topics covered: Fast Forms, Offline First, Accessibility, Validation, Javascript Frameworks, HTTPS
 
