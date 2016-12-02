@@ -26,7 +26,8 @@ gulp.task('browser-sync', function() {
     bs.init({
         server: {
             baseDir: "dev"
-        }
+        },
+        notify: false
     });
 });
 
@@ -70,7 +71,7 @@ gulp.task('useref', function(){
 gulp.task('watch', function () {
     gulp.watch("dev/scss/*.scss", ['sass']);
     gulp.watch("dev/*.html").on('change', bs.reload);
-    gulp.watch("dev/views/*.html").on('change', bs.reload);
+    gulp.watch("dev/ngViews/**/*.html").on('change', bs.reload);
     gulp.watch("dev/js/**/*.html").on('change', bs.reload);
     gulp.watch("dev/js/**/*.js").on('change', bs.reload);
     gulp.watch("dev/js/*.js").on('change', bs.reload);

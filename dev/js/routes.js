@@ -1,44 +1,68 @@
 // Routes file
 app.config(function($routeProvider) {
     $routeProvider
-    .when("/", {
-        templateUrl : "views/main.html",
-        controller : "MainController"
-    })
+
+    // Account and login specs
     .when("/account", {
-        templateUrl : "views/account.html",
-        controller : "MainController"
+        templateUrl : "ngViews/user/account.html",
+        controller : "MainController",
+        resolve: {
+          thisJSON: function(OceansService) {
+            // var
+            return OceansService.getOceans('account').then(
+              function (result) {
+                return result;
+              }
+            );
+          }
+        }
     })
     .when("/signin", {
-        templateUrl : "views/signin.html",
-        controller : "MainController"
+        templateUrl : "ngViews/login/signin.html",
+        controller : function ($scope, LoginService) {
+          $scope.hello = function hello () {
+            console.log(LoginService.isSignedIn);
+            LoginService.signIn();
+            console.log(LoginService.isSignedIn);
+            console.log("HELLO");
+          }
+        }
     })
     .when("/signup", {
-        templateUrl : "views/signup.html",
+        templateUrl : "ngViews/login/signup.html",
         controller : "MainController"
     })
     .when("/signout", {
-        templateUrl : "views/signout.html",
-        controller : "MainController"
+        templateUrl : "ngViews/login/signout.html",
     })
-    .when("/artic", {
-        templateUrl : "views/artic.html",
-        controller : "MainController"
+
+    // Main page
+    .when("/", {
+        templateUrl : "ngViews/main.html",
+        controller : "MainController",
+        resolve: {
+          thisJSON: function(OceansService, $route) {
+            return OceansService.getOceans('artic').then(
+              function (result) {
+                return result;
+              });
+          }
+        }
     })
-    .when("/atlantic", {
-        templateUrl : "views/atlantic.html",
-        controller : "MainController"
-    })
-    .when("/indian", {
-        templateUrl : "views/indian.html",
-        controller : "MainController"
-    })
-    .when("/pacific", {
-        templateUrl : "views/pacific.html",
-        controller : "MainController"
-    })
-    .when("/southern", {
-        templateUrl : "views/southern.html",
-        controller : "MainController"
-    })
+
+    // Each oceans page
+    .when("/:paramType", {
+        templateUrl : "ngViews/main.html",
+        controller : "MainController",
+        resolve: {
+          thisJSON: function(OceansService, $route) {
+            var whichOcean = $route.current.params.paramType;
+
+            return OceansService.getOceans(whichOcean).then(
+              function (result) {
+                return result;
+              });
+          }
+        }
+    });
 });

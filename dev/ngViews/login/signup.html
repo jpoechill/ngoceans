@@ -3,6 +3,31 @@
     <div class="row">
       <div class="col-md-12" style="text-align: center; padding-top: 40px; align: center; padding-bottom: 80px;;">
         <span style="font-size: 14px;"><b>Create an account.</b></span> <br><br>
+
+        <div class="container" id="demoApp">
+      <form class="pure-form pure-form-aligned" name="frm" method="post"
+        novalidate autocomplete="off">
+          <fieldset>
+
+              <div class="pure-control-group">
+                  <!-- <label>Username</label> -->
+                  <input name="username" ng-model="user.username" type="text" placeholder="Username" required>
+                  <div class="field-message" ng-messages="frm.username.$error" ng-if='frm.username.$dirty' ng-cloak>
+                    <div ng-message="required" style="color: red;"><small>Username is required</small></div>
+                  </div>
+              </div>
+              <br>
+              <div class="pure-controls">
+                  <!-- <label class="pure-checkbox">
+                      <input name="conditions" ng-model="conditions" type="checkbox">
+                      I've read the terms and conditions
+                  </label> -->
+                  <button type="submit" class="btn btn-primary input-block-level"
+                   ng-disabled="frm.$invalid">Sign In</button>
+              </div>
+          </fieldset>
+      </form>
+    </div>
         <!-- <img src="img/signup.png" width="40%" alt="" /> -->
         <!-- <div class="row">
           <div class="col-md-6">
@@ -29,7 +54,14 @@
           </div>
         </div> -->
         <div>
-          <div class="" style="vertical-align: top; display: inline-block">
+          <!-- <div class="pure-control-group">
+              <label>Username</label>
+              <input name="username" ng-model="user.username" type="text" placeholder="Username" required>
+              <div class="field-message" ng-messages="frm.username.$error" ng-if='frm.username.$dirty' ng-cloak>
+                <div ng-message="required">Username is required</div>
+              </div>
+          </div> -->
+          <!-- <div class="" style="vertical-align: top; display: inline-block">
             <input type="text" name="name" placeholder="Full name" required><br>
             <input type="text" name="occupation" placeholder="Occupation" required><br>
             <input type="text" name="hometown" placeholder="Hometown" required><br>
@@ -38,18 +70,18 @@
             <input type="text" name="email" placeholder="Email" required> <br>
             <input type="password" name="password" placeholder="Password" required> <br>
             <input type="password" name="confirm" placeholder="Confirm" required> <br><br>
-          </div>
+          </div> -->
         </div>
 
-        <textarea name="blurb" placeholder="Say something about yourself..." rows="8" cols="40"></textarea><br>
+        <!-- <textarea name="blurb" placeholder="Say something about yourself..." rows="8" cols="40"></textarea><br> -->
 
-        <br>
-        <form action="#/">
+        <!-- <br> -->
+        <!-- <form action="#/">
           <button type="submit" class="btn btn-primary input-block-level" style="margin-top: -8px; margin-bottom: 5px;">
-            <!-- <i class="fa fa-arrow-right" aria-hidden="true"></i> -->
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
             Sign In
           </button>
-        </form>
+        </form> -->
 
         <!-- <form action="#/">
             <input type="submit" value="CREATE ACCOUNT">

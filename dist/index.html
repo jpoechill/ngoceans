@@ -19,6 +19,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-messages.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-mocks.js"></script>
 
     <!-- Start Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -38,7 +40,7 @@
     })
     </script>
 
-    <title>Oceans | Home</title>
+    <title>Oceans – Home</title>
 
   </head>
 
@@ -51,7 +53,7 @@
     <!-- Start Angular view -->
     <ng-view autoscroll="true" style="overflow: auto; -webkit-column-break-inside: avoid;"></ng-view>
 
-    <footer ng-show="showFooter()" ng-controller="MainController">
+    <footer ng-show="showFooter()" class="fadein2" ng-controller="FooterController">
       <div class="container">
         <div class="row" style="vertical-align: top; float: left; width: 100%; min-height: 200px; padding-bottom: 0px; padding-top: 30px; margin-bottom: 0px;">
           <div class="col-md-3" style="font-family: 'Montserrat'; color: #3A405B; font-size: 14px; letter-spacing: .0375rem; font-weight: 400; padding-top: 0px; align: center;">
