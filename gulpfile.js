@@ -155,9 +155,12 @@ gulp.task('default', function (callback) {
 
 // Development
 gulp.task('serve', function (callback) {
-  runSequence('delete:mainjs', ['sass',
+  runSequence('delete:mainjs', [
+    'sass',
     'scripts',
-    'browser-sync', 'watch'], callback);
+    'browser-sync',
+    'watch'
+  ], callback);
 });
 
 // Dist
