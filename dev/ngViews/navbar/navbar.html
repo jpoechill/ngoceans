@@ -21,19 +21,19 @@
       </li>
     </ul>
     <ul class="nav navbar-nav float-lg-right" style="float: none;">
-      <li class="nav-item" style="margin-left: 0px; margin-top: 10px; margin-right: 10px;">
+      <!-- <li class="nav-item" style="margin-left: 0px; margin-top: 10px; margin-right: 10px;">
         <div class="btn-group">
           <a class="dropdown" href="" data-toggle="dropdown">
              <span style="margin-left: 14px; margin-right: 10px; top: 4px; position: relative; font-size: 12px; color: #3A405B; letter-spacing: .136em; word-spacing: 2px;">
                 <i class="fa fa-bell-o" aria-hidden="true"></i>
              </span>
           </a>
-              <div class="dropdown-menu bubble dropdown-menu-right fadein-slow">
+              <div class="dropdown-menu bubble-short dropdown-menu-right fadein-slow">
                 <span style="font-size: 12px; color: #3A405B; letter-spacing: .136em; word-spacing: 2px;">
-                  <a class="dropdown-item" href="#/account">NO UPDATES</a>
+                  <a class="dropdown-item" href="">NO UPDATES</a>
               </div>
         </div>
-      </li>
+      </li> -->
       <li class="nav-item" style="margin-left: 0px; margin-top: 10px; margin-right: 10px;">
            <div class="btn-group">
              <a class="dropdown" href="" data-toggle="dropdown">
@@ -44,9 +44,9 @@
                   <img ng-src="{{userAvatar}}" width="40" alt="">
                 </span>
              </a>
-             <div class="dropdown-menu bubble dropdown-menu-right fadein-slow">
+             <div class="dropdown-menu dropdown-menu-right fadein-slow" ng-class="hello()">
                <span style="font-size: 12px; color: #3A405B; letter-spacing: .136em; word-spacing: 2px;">
-                 <a ng-show="loggedin()" class="dropdown-item" href="#/account">MY OCEANS</a>
+                 <a ng-show="loggedin()" class="dropdown-item" href="#/account">MY PROFILE</a>
                  <div ng-show="loggedin()" class="dropdown-divider"></div>
                  <a ng-show="loggedin()" class="dropdown-item" ng-click="signOut()" href="#/signout">SIGN OUT</a>
                  <a ng-show="!loggedin()" class="dropdown-item" href="#/signin">SIGN IN</a>
@@ -60,37 +60,70 @@
 
 <style media="screen">
 
-.bubble {
-position: absolute;
-top: 50px;
-right: -3px;
-width: 150px;
-height: 92px;
-padding: 12px;
-background: #fbfbfb;
-color: white;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);
-border-color: #fbfbfb transparent;
-/*opacity: .96;*/
-z-index: 1;
-}
+  .bubble {
+    position: absolute;
+    top: 50px;
+    right: -3px;
+    width: 150px;
+    height: 92px;
+    padding: 12px;
+    background: #fbfbfb;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);
+    border-color: #fbfbfb transparent;
+    /*opacity: .96;*/
+    z-index: 1;
+  }
 
-.bubble:after
-{
-content: '';
-position: inherit;
-border-style: solid;
-border-width: 0 15px 16px;
-border-color: #fbfbfb transparent;
-/*box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);*/
-display: block;
-width: 0;
-z-index: -10;
-top: -16px;
-left: 114px;
-}
+  .bubble:after
+  {
+    content: '';
+    position: inherit;
+    border-style: solid;
+    border-width: 0 15px 16px;
+    border-color: #fbfbfb transparent;
+    /*box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);*/
+    display: block;
+    width: 0;
+    z-index: -10;
+    top: -16px;
+    left: 114px;
+  }
+
+  .bubble-short {
+    position: absolute;
+    top: 50px;
+    right: -3px;
+    width: 150px;
+    height: 51px;
+    padding: 12px;
+    background: #fbfbfb;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);
+    border-color: #fbfbfb transparent;
+    /*opacity: .96;*/
+    z-index: 1;
+  }
+
+  .bubble-short:after
+  {
+    content: '';
+    position: inherit;
+    border-style: solid;
+    border-width: 0 15px 16px;
+    border-color: #fbfbfb transparent;
+    /*box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);*/
+    display: block;
+    width: 0;
+    z-index: -10;
+    top: -16px;
+    left: 114px;
+  }
 
 </style>

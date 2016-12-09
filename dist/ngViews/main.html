@@ -5,7 +5,7 @@
         <div class="columns" style="text-align:center;">
           <div class="card" style="vertical-align: top;" ng-repeat="sea in thisJSON.seas">
             <div class="fadein" style="width: 100%; padding: 14px; overflow: hidden;">
-              <img ng-src={{sea.photo}} alt="ARAFURA SEA THUMBNAIL" width="100%"/>
+              <img ng-src={{sea.photo}} alt="{{sea.name}} Thumbnail" width="100%"/>
             </div>
             <div class="" style="width: 100%; padding: 14px; padding-top: 0px; padding-bottom: 0px; text-align: left;">
               <span class="sea-title">{{sea.name | uppercase}}</span><span class="sea-coords pull-right"><i class="fa fa-map-marker" aria-hidden="true" style="line-height: -1; position: relative; top: -1px; letter-spacing: 4px;"></i> {{sea.coords[0]}}, {{sea.coords[1]}}</span>

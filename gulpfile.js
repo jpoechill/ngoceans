@@ -122,9 +122,9 @@ gulp.task('move-sw', function() {
 
 // Move templates
 gulp.task('move-templates:dist', function() {
-    gulp.src('dev/views/**/*')
+    gulp.src('dev/ngViews/**/*')
     // Perform minification tasks, etc here
-    .pipe(gulp.dest('dist/views'));
+    .pipe(gulp.dest('dist/ngViews'));
 });
 
 // Move data
@@ -156,7 +156,7 @@ gulp.task('default', function (callback) {
 // Development
 gulp.task('serve', function (callback) {
   runSequence('delete:mainjs', ['sass',
-    // 'scripts',
+    'scripts',
     'browser-sync', 'watch'], callback);
 });
 

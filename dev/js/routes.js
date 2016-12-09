@@ -19,18 +19,34 @@ app.config(function($routeProvider) {
     })
     .when("/signin", {
         templateUrl : "ngViews/login/signin.html",
-        controller : function ($scope, LoginService) {
-          $scope.hello = function hello () {
-            console.log(LoginService.isSignedIn);
+        controller : function ($scope, LoginService, $location) {
+          $scope.hello = function () {
             LoginService.signIn();
-            console.log(LoginService.isSignedIn);
-            console.log("HELLO");
+            $location.path("/")
+          }
+
+          $scope.checkEmail = function (inputValue) {
+            if (!inputValue) {
+              return "Please enter a valid email address"
+            }
           }
         }
     })
     .when("/signup", {
         templateUrl : "ngViews/login/signup.html",
-        controller : "MainController"
+        controller : function ($scope, LoginService, $location) {
+          $scope.submitSignUp = function () {
+
+            console.log("Hello");
+            $location.path("/");
+            console.log("Hello");
+          }
+          $scope.submitForm = function() {
+            if ($scope.userForm.$valid) {
+                alert('our form is amazing');
+            }
+          };
+        }
     })
     .when("/signout", {
         templateUrl : "ngViews/login/signout.html",

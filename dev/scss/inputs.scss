@@ -1,6 +1,9 @@
 // Inputs
-input {
+input, textarea {
   padding: 8px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: FontAwesome, 'Open Sans', sans-serif !important;
 }
 
 input[type=search] {

@@ -6,6 +6,7 @@
   "dependencies": {
     "angular-chart.js": "^1.0.3",
     "angular-ui-router": "^0.3.2",
+    "angular-web-notification": "^1.0.21",
     "browser-sync": "^2.17.0",
     "chart.js": "^2.3.0",
     "gulp": "^3.9.1",
@@ -21,6 +22,7 @@
     "concat": "0.0.1-security",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "gulp-cache": "^0.4.5",
     "gulp-cssnano": "^2.1.2",
     "gulp-if": "^2.0.1",

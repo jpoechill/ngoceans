@@ -20,12 +20,11 @@ app.factory('LoginService', function() {
       return loginService.isSignedIn;
     },
     signIn: function () {
-      console.log("You have signed in.");
+      // console.log("You have signed in.");
       loginService.isSignedIn = true;
     },
     signOut: function () {
       loginService.isSignedIn = false;
-      console.log("You've signed out!");
       // loginService.myUrl = "img/avatar/blank.png";
     }
   };

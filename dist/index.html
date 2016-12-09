@@ -27,25 +27,13 @@
 
     <link rel="stylesheet" href="css/styles.min.css">
 
-    <!-- <link rel="stylesheet" type="text/css" href="ccs/addtohomescreen.css"> -->
-    <script src="js/lib/addtohomescreen.js"></script>
-    <script>
-    addToHomescreen();
-    </script>
-
-    <!--  Enable Bootstrap tooltips -->
-    <script type="text/javascript">
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })
-    </script>
-
     <title>Oceans – Home</title>
 
   </head>
 
   <body style="background-color: #F8F8F8;" ng-app="OceanApp">
 
+    <!--  Start Oceans navbar -->
     <nav-bar></nav-bar>
 
     <!-- End nav -->
@@ -53,47 +41,8 @@
     <!-- Start Angular view -->
     <ng-view autoscroll="true" style="overflow: auto; -webkit-column-break-inside: avoid;"></ng-view>
 
-    <footer ng-show="showFooter()" class="fadein2" ng-controller="FooterController">
-      <div class="container">
-        <div class="row" style="vertical-align: top; float: left; width: 100%; min-height: 200px; padding-bottom: 0px; padding-top: 30px; margin-bottom: 0px;">
-          <div class="col-md-3" style="font-family: 'Montserrat'; color: #3A405B; font-size: 14px; letter-spacing: .0375rem; font-weight: 400; padding-top: 0px; align: center;">
-            <span style="font-family: 'Montserrat'; color: #B8BFD3; font-size: 11px; letter-spacing: 1px;">OCEANS APP </span><br><br>
-            <span style="line-height: 3;">
-            All Oceans <br>
-            Major Seas <br>
-            Major Islands <br>
-            </span>
-          </div>
-          <div class="col-md-3" style="font-family: 'Montserrat'; color: #3A405B; font-size: 14px; letter-spacing: .0375rem; font-weight: 400; padding-top: 0px; align: center;">
-            <span style="font-family: 'Montserrat'; color: #B8BFD3; font-size: 11px; letter-spacing: 1px;">OCEANS API </span><br><br>
-            <span style="line-height: 3;">
-            General Public <br>
-            For Designers <br>
-            For Developers <br>
-            </span>
-          </div>
-          <div class="col-md-3" style="font-family: 'Montserrat'; color: #3A405B; font-size: 14px; letter-spacing: .0375rem; font-weight: 400; padding-top: 0px; align: center;">
-            <span style="font-family: 'Montserrat'; color: #B8BFD3; font-size: 11px; letter-spacing: 1px;">FOLLOW US </span><br><br>
-            <span style="line-height: 3; font-size: 24px; vertical-align: middle; line-height: 1.5; letter-spacing: 7px;">
-              <i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-dribbble" aria-hidden="true"></i> <i class="fa fa-google-plus" aria-hidden="true"></i> <i class="fa fa-facebook" aria-hidden="true"></i><br>
-            </span>
-          </div>
-          <div class="col-md-3" style="font-family: 'Montserrat'; color: #3A405B; font-size: 14px; letter-spacing: .0375rem; font-weight: 400; padding-top: 0px; align: center;">
-            <span style="font-family: 'Montserrat'; color: #B8BFD3; font-size: 11px; letter-spacing: 1px;">AS SEEN WITH </span><br><br>
-            <span style="line-height: 3; letter-spacing: 18px;">
-              <img src="img/google.png" height="54px" alt="" />
-              <img src="img/angular-1.png" height="54px" alt="" />
-              <img src="img/angular-2.png" height="54px" alt="" />
-            </span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12" style="text-align: center; padding-top: 0px; padding: 12px; font-size: 14px;">
-            © 2016 Oceans App
-          </div>
-        </div>
-      </div>
-    </footer>
+    <!--  Start Oceans footer -->
+    <oc-footer></oc-footer>
 
     <script src="js/main.min.js"></script>
 
@@ -102,6 +51,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
     <!-- End Bootstrap CDN Calls -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="ccs/addtohomescreen.css"> -->
+
+    <!--  Enable Bootstrap tooltips -->
+    <script type="text/javascript">
+    addToHomescreen();
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
 
   </body>
 </html>

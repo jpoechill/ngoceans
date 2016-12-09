@@ -1,14 +1,42 @@
 // MainController
-app.controller('MainController', ['$scope', 'OceansService', 'thisJSON',
-  function MainController($scope, OceansService, thisJSON) {
-    // To do
-    // V Remove oceans JSON and place in mock-backend script
-    // V Add $http calls per request to mock-backend
-    // Setup//integrate for UI-Router
-
-    // Create and divide new controllers per individual action set
-
+app.controller('MainController', ['$scope', 'OceansService', 'thisJSON', 'webNotification', '$timeout',
+  function MainController($scope, OceansService, thisJSON, webNotification, $timeout) {
+    // To do: Setup, integrate for UI-Router
     $scope.thisJSON = thisJSON;
+
+    $scope.addFollowers = function (thisSea) {
+      var newFollower = {
+        "name" : "Julian Bishop",
+        "photo" : "img/avatar-thumb-4.png",
+      };
+
+      if (containsObject(newFollower, $scope.thisJSON.seas[thisSea].followers) !== true) {
+        $scope.thisJSON.seas[thisSea].followers.push(newFollower);
+      }
+
+      // console.log("Clicked.");
+      $timeout(function() { showNotification($scope.thisJSON.seas[thisSea].name);}, 3000);
+      // showNotification($scope.thisJSON.seas[thisSea].name);
+
+      function showNotification (thisSeaName) {
+        webNotification.showNotification('Oceans', {
+            body: 'Now following ' + thisSeaName,
+            icon: 'img/favicon-lrg.png',
+            autoClose: 4000 //auto close the notification after 4 seconds (you can manually close it via hide function)
+        }, function onShow(error, hide) {
+            if (error) {
+                window.alert('Unable to show notification: ' + error.message);
+            } else {
+                console.log('Notification Shown.');
+
+                setTimeout(function hideNotification() {
+                    console.log('Hiding notification....');
+                    hide(); //manually close the notification (you can skip this if you use the autoClose option)
+                }, 5000);
+            }
+        });
+      }
+    };
 
     $scope.isFollows = function (thisSea) {
       var thisFollowerList = $scope.thisJSON.seas[thisSea].followers;
@@ -21,22 +49,6 @@ app.controller('MainController', ['$scope', 'OceansService', 'thisJSON',
         return true;
       } else {
         return false;
-      }
-    };
-
-    $scope.togglecomments = function (thisSea) {
-      console.log("Hello");
-      $scope.thisJSON.seas[thisSea].togglecomments = !$scope.thisJSON.seas[thisSea].togglecomments;
-    };
-
-    $scope.addFollowers = function (thisSea) {
-      var newFollower = {
-        "name" : "Julian Bishop",
-        "photo" : "img/avatar-thumb-4.png",
-      };
-
-      if (containsObject(newFollower, $scope.thisJSON.seas[thisSea].followers) !== true) {
-        $scope.thisJSON.seas[thisSea].followers.push(newFollower);
       }
     };
 
