@@ -1,0 +1,44 @@
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" style="text-align: center; padding-top: 60px; align: center; height: 460px;">
+        <div style="display: inline-block; text-align: center; width: 400px; " width="200px">
+          <span style="font-size: 14px;"><b>Welcome to Oceans.</b></span>
+          <hr style="margin-bottom: 14px;" width=83%>
+          <form name="signInForm" ng-submit="hello()" novalidate autocomplete="on">
+            <div style="margin: 0px; width: auto; padding: 0px;">
+              <div style="text-align: left; padding-left: 40px; width: 90%;">
+                <div class="form-group" ng-class="{ 'has-error' : signInForm.email.$invalid && !signInForm.email.$pristine }">
+                  <label for="email" style="font-size: 10px; text-align: left; font-weight: 700;">EMAIL</label> <br />
+                  <input id="email" class="form-control" type="email" name="email" placeholder="Email" ng-model="user.email" required>
+                  <p ng-show="signInForm.email.$invalid && !signInForm.email.$pristine" class="help-block">A valid email is required.</p>
+                  <!-- <p ng-show="signInForm.email.$invalid && !signInForm.email.$pristine" class="help-block">Please enter a valid email.</p> -->
+                </div>
+                <div class="form-group" ng-class="{ 'has-error' : signInForm.email.$invalid && !signInForm.email.$pristine }">
+                  <label for="password" style="font-size: 10px; text-align: left; font-weight: 700;">PASSWORD</label> <br />
+                  <input id="password" class="form-control" type="password" name="password" placeholder="Password" ng-model="user.password" required>
+                  <p ng-show="signInForm.password.$invalid && !signInForm.password.$pristine" class="help-block">Password is required.</p>
+                </div>
+              </div>
+            </div>
+            <!-- <hr style="margin-top: 30px;" width=83%> -->
+            <button ng-disabled="signInForm.$invalid" type="submit" class="btn btn-primary input-block-level" style="margin-top: 4px; margin-bottom: 5px;">
+              Sign In
+            </button>
+          </form>
+          <span style="font-size: 14px;">Don't have an account? <a href="#/signup" style="text-decoration: underline"><i>Sign up</i></a></span> <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<style media="screen">
+  .help-block {
+    color: red;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+</style>

@@ -1,0 +1,107 @@
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" style="text-align: center; padding-top: 40px; align: center; padding-bottom: 80px;;">
+        <span style="font-size: 14px;"><b>Create an account.</b></span>
+        <form ng-submit="submitForm()" name="signUpForm" novalidate autocomplete="off">
+        <!-- <form ng-submit="submitSignUp()" novalidate autocomplete="off"> -->
+          <div class="row" >
+            <hr width="43%">
+            <div style="padding: 30px; padding-bottom: 0px; padding-top: 0px; text-align: left; vertical-align: top; display: inline-block">
+              <div class="form-group" ng-class="{ 'has-error' : signUpForm.fullName.$invalid && !signUpForm.fullName.$pristine }">
+                <label for="fullname" style="font-size: 10px; text-align: left; font-weight: 700;">FULL NAME</label> <br />
+                <input id="fullname"class="form-control" type="text" name="fullName" placeholder="Full name" ng-model="user.fullName" required>
+                <p ng-show="signUpForm.fullName.$invalid && !signUpForm.fullName.$pristine" class="help-block">Name is required.</p>
+              </div>
+
+              <div class="form-group" ng-class="{ 'has-error' : signUpForm.email.$invalid && !signUpForm.email.$pristine }">
+                <label for="occupation" style="font-size: 10px; text-align: left; font-weight: 700;">OCCUPATION (OPTIONAL)</label> <br />
+                <input id="occupation" class="form-control" type="text" name="occupation" placeholder="Occupation" ng-model="user.occupation">
+              </div>
+
+              <div class="form-group" ng-class="{ 'has-error' : signUpForm.hometown.$invalid && !signUpForm.hometown.$pristine }">
+                <label for="hometown" style="font-size: 10px; text-align: left; font-weight: 700;">HOMETOWN (OPTIONAL)</label> <br />
+                <input id="hometown" class="form-control" type="text" name="hometown" placeholder="Hometown" ng-model="user.hometown">
+                <p ng-show="signUpForm.hometown.$invalid && !signUpForm.hometown.$pristine" class="help-block">Hometown is required.</p>
+              </div>
+
+            </div>
+            <div style="padding: 30px; padding-bottom: 0px; padding-top: 0px; text-align: left; display: inline-block">
+              <div class="form-group" ng-class="{ 'has-error' : signUpForm.email.$invalid && !signUpForm.email.$pristine }">
+                <label for="email" style="font-size: 10px; text-align: left; font-weight: 700;">EMAIL</label> <br />
+                <input id="email" class="form-control" type="email" name="email" placeholder="Email" ng-model="user.email" required>
+                <p ng-show="signUpForm.email.$invalid && !signUpForm.email.$pristine" class="help-block">A valid email is required.</p>
+                <!-- <p ng-show="signUpForm.email.$invalid && !signUpForm.email.$pristine" class="help-block">Not a valid email.</p> -->
+              </div>
+
+              <div class="form-group" ng-class="{ 'has-error' : signUpForm.password.$invalid && !signUpForm.password.$pristine }">
+                <label for="password" style="font-size: 10px; text-align: left; font-weight: 700;">PASSWORD</label> <br />
+                <input id="password" class="form-control" type="password" name="password" placeholder="Password" ng-model="user.password" required>
+                <p ng-show="signUpForm.password.$invalid && !signUpForm.password.$pristine" class="help-block">Password is required.</p>
+                <p ng-show="signUpForm.password.$error.minlength" class="help-block">Password is too short.</p>
+                <p ng-show="signUpForm.password.$error.maxlength" class="help-block">Password is too long.</p>
+              </div>
+
+              <div class="form-group" ng-class="{ 'has-error' : signUpForm.confirmation.$invalid && !signUpForm.confirmation.$pristine }">
+                <label for="confirmation" style="font-size: 10px; text-align: left; font-weight: 700;">CONFIRM PASSWORD</label> <br />
+                <input id="confirmation" class="form-control" type="password" name="confirmation" placeholder="Confirm password" ng-model="user.confirmation" compare-to="user.password" required>
+                <p ng-show="signUpForm.confirmation.$invalid && !signUpForm.confirmation.$pristine" class="help-block">Confirmation does not match password.</p>
+                <!-- <p ng-show="signUpForm.confirmation.$invalid" class="help-block">Confirmation does not match password.</p> -->
+              </div>
+            </div>
+          </div>
+          <hr style="margin-top: 10px;" width="44%">
+          <div>
+            <div class="form-group"  ng-class="{ 'has-error' : signUpForm.biography.$invalid && !signUpForm.biography.$pristine }" style="text-align: left;  display: inline-block">
+              <label for="biography" style="font-size: 10px; text-align: left; font-weight: 700;">BIOGRAPHY</label> <br />
+              <textarea id="biography" class="form-control" name="biography" placeholder="Short description..." rows="5" cols="50" ng-model="user.bio" required></textarea>
+              <p ng-show="signUpForm.biography.$invalid && !signUpForm.biography.$pristine" class="help-block">A short biography is required.</p>
+            </div>
+            <!-- <hr style="margin-top: 10px;" width="44%"> -->
+            <div>
+              <button ng-disabled="signUpForm.$invalid" type="submit" class="btn btn-primary input-block-level" style="margin-top: 6px; text-align: center; align: center; margin-bottom: 5px;">
+                Sign Up
+              </button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+        <!-- <img src="img/signup.png" width="40%" alt="" /> -->
+        <!-- <div class="row">
+          <div class="col-md-6">
+            <span style="font-size: 14px;">Full name</span> <br>
+            <input type="text" name="name" placeholder="What's your full name?"> <br><br>
+
+            <span style="font-size: 14px;">Occupation</span> <br>
+            <input type="text" name="name" placeholder="What do you do?"> <br><br>
+
+            <span style="font-size: 14px;">Blurb</span> <br>
+            <textarea name="name" placeholder="Say something about yourself..." rows="8" cols="40"></textarea><br><br>
+
+          </div>
+          <div class="col-md-6">
+            <span style="font-size: 14px;">Hometown</span> <br>
+            <input type="text" name="name" placeholder="Where are you from?"> <br><br>
+
+            <span style="font-size: 14px;">Email</span> <br>
+            <input type="text" name="name" placeholder="How can we contact you?"> <br><br>
+
+            <span style="font-size: 14px;">Password</span> <br>
+            <input type="password" name="name" value=""> <br>
+            <input type="password" name="name" value=""> <br><br>
+          </div>
+        </div> -->
+  </div>
+</main>
+
+<style media="screen">
+  .help-block {
+    color: red;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+</style>
