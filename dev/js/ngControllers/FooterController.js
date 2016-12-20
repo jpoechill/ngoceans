@@ -1,4 +1,5 @@
 // FooterController
+// Unneeded: see FooterDirective.js
 app.controller('FooterController', ['$scope', '$location',
   function FooterController($scope, $location) {
     $scope.showFooter = function () {

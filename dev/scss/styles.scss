@@ -11,7 +11,7 @@ body {
 }
 
 .inner-addon {
-    position: relative;
+  position: relative;
 }
 
 .inner-addon .fa {
@@ -22,18 +22,74 @@ body {
   font-size: .875rem;
 }
 
-.left-addon .fa  { left:  3px; top: 10px;}
+.left-addon .fa  {
+  left:  3px;
+  top: 10px;
+}
 
-.left-addon input  { padding-left:  30px; }
+.left-addon input  {
+  padding-left:  30px;
+}
 
 .dropdown-item {
   padding: 3px .68rem;
 }
 
-// .columns {
-// 	column-count: 3;
-//   column-gap: 14px;
-// }
+.main-column {
+  padding-top: 10px;
+  align: center;
+  overflow: visible
+}
+
+.columns {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  // padding-right: 100px;
+  // height: 2000px;
+  padding-bottom: 10px;
+  position: relative;
+  overflow-y:visible;
+  overflow-x:hidden;
+  overflow: visible;
+}
+
+.sea-img-container {
+  width: 100%;
+  padding: 14px;
+  overflow: hidden;
+}
+
+.sea-title-container {
+  width: 100%;
+  padding: 14px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+.sea-hr-container {
+  padding-left: 14px; padding-right: 14px;
+}
+
+.follow-container {
+  margin-top: -3px;
+}
+
+.fa, .fa-map-marker {
+  line-height: -1;
+  position: relative;
+  top: -1px;
+  letter-spacing: 4px;
+}
+
+// Login validation
+.help-block {
+  color: red;
+  font-size: 12px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
 // Adjust responsive images on page to fit cards
 @media (min-width: 480px){
